@@ -1,6 +1,6 @@
 package lesson4;
 
-public class croupier {
+public class Croupier {
     public static void main(String[] args) {
 
         //Инициализируем кол-во игроков и карт на игрока

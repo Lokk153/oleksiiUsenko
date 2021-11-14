@@ -1,6 +1,6 @@
 package lesson4;
 
-public class sinCalculator {
+public class SinCalculator {
     public static void main(String[] args) {
         System.out.println("degrees | sin");
         for (double degrees = 0; degrees <= 360; degrees = degrees + 10) {

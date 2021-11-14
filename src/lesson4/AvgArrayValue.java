@@ -3,12 +3,12 @@ package lesson4;
 import java.util.Arrays;
 import java.util.Random;
 
-public class evenNumberToZeroConverter {
+public class AvgArrayValue {
     public static void main(String args[]) {
 
         //Инициализируем размер и кол-во элементов массива
-        int arraySize = 20;
-        int randomElementsInArray = 20;
+        int arraySize = 5;
+        int randomElementsInArray = 5;
 
         //Заполняем массив случайными значениями
         int[] randomValueArray = new int[arraySize];
@@ -17,13 +17,11 @@ public class evenNumberToZeroConverter {
         }
         System.out.println("Array = " + Arrays.toString(randomValueArray));
 
-        //Проверяем каждый элемент массива на четность
-        for (int i = 0; i < randomValueArray.length; i++) {
-            if (randomValueArray[i] % 2 == 0) {
-                randomValueArray[i] = 0;
-            }
-        }
-        System.out.println("Array with odd numbers = " + Arrays.toString(randomValueArray));
+        //Суммируем значения элементов массива
+        double result = 0;
+        for (int i = 0; i < randomElementsInArray; i++)
+            result = result + randomValueArray[i];
+        System.out.println("Среднее значение равно " + result / arraySize);
     }
 
     //Генерируем случайные числа
@@ -32,4 +30,3 @@ public class evenNumberToZeroConverter {
         return random.nextInt(100);
     }
 }
-
