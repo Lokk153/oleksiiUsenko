@@ -1,7 +1,6 @@
 package lesson9;
 
 public class Logger {
-
     public static final String ANSI_RESET = "\u001B[0m";
     public static final String ANSI_WHITE = "\u001B[37m";
     public static final String ANSI_GREEN = "\u001B[32m";
