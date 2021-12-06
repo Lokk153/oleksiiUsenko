@@ -7,18 +7,18 @@ class DeckCreator extends Deck {
         try {
             //Исключение в случае меньшего кол-ва карт чем нужно
             if (suits.length < 4 | ranks.length < 13) {
-                throw new CroupierException();
+                throw new CroupierException.NotEnoughCardsException();
             }
             for (int i = 0; i < ranks.length; i++) {
                 for (int j = 0; j < suits.length; j++) {
                     deck[suits.length * i + j] = ranks[i] + " " + suits[j];
                 }
             }
-        } catch (CroupierException e) {
-            CroupierException.exception("not_enough_cards");
+            return deck;
+        } catch (CroupierException.NotEnoughCardsException e) {
+            e.printStackTrace();
             return null;
         }
-        return deck;
     }
 
     //Перетасовка колоды
@@ -26,7 +26,7 @@ class DeckCreator extends Deck {
         try {
             //Исключение в случае несоздания колоды
             if (deck == null) {
-                throw new CroupierException();
+                throw new CroupierException.DeckNotCreated();
             }
             for (int i = 0; i < deck.length; i++) {
                 int randomCard = i + (int) (Math.random() * (deck.length - i));
@@ -34,10 +34,10 @@ class DeckCreator extends Deck {
                 deck[randomCard] = deck[i];
                 deck[i] = temp;
             }
-        } catch (CroupierException e) {
-            CroupierException.exception("deck_not_created");
+            return deck;
+        } catch (CroupierException.DeckNotCreated e) {
+            e.printStackTrace();
             return null;
         }
-        return deck;
     }
 }

@@ -2,9 +2,10 @@ package lesson10;
 
 public class Croupier {
     public static void main(String[] args) {
-        int players = 11;
+        int players = 4;
         final int cardsPerPlayer = 5;
-        Croupier.cardDistribution(players, cardsPerPlayer, DeckCreator.shuffle(DeckCreator.create()));
+
+            Croupier.cardDistribution(players, cardsPerPlayer, DeckCreator.shuffle(DeckCreator.create()));
     }
 
     //Раздача карт
@@ -12,8 +13,10 @@ public class Croupier {
         try {
             //Исключение в случае слишком большого кол-во игроков
             if (players > 10) {
-                throw new CroupierException();
-            }
+                throw new CroupierException.TooManyPlayersException();
+            } else if (deck == null){
+                throw new CroupierException.NoDeckToDeal();
+                }
             int playerNumber = 1;
             for (int j = 0; j < players * cardsPerPlayer; j++) {
                 System.out.println("Игрок " + playerNumber + " получает карту - " + deck[j]);
@@ -22,8 +25,10 @@ public class Croupier {
                     playerNumber++;
                 }
             }
-        } catch (CroupierException e) {
-            CroupierException.exception("too_many_players");
+        } catch (CroupierException.TooManyPlayersException e) {
+            e.printStackTrace();
+        } catch (CroupierException.NoDeckToDeal e) {
+            e.printStackTrace();
         }
     }
 }
