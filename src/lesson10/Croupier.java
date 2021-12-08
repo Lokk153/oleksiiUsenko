@@ -5,7 +5,7 @@ public class Croupier {
         int players = 4;
         final int cardsPerPlayer = 5;
 
-            Croupier.cardDistribution(players, cardsPerPlayer, DeckCreator.shuffle(DeckCreator.create()));
+        Croupier.cardDistribution(players, cardsPerPlayer, DeckCreator.shuffle(DeckCreator.create()));
     }
 
     //Раздача карт
