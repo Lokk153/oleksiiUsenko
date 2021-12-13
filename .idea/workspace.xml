@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="git update" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="git update">
+      <change afterPath="$PROJECT_DIR$/src/lesson14/DuplicateRemover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14/HeapSorter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14/RandomCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson14/ShoppingList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,8 +92,11 @@
       <recent name="E:\PersonalDev\javaProject\hillelHomeWorks\src" />
       <recent name="E:\PersonalDev\javaProject\hillelHomeWorks\src\lesson10" />
     </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="lesson14" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Croupier">
+  <component name="RunManager" selected="Application.HeapSorter">
     <configuration name="Croupier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson10.Croupier" />
       <module name="hillelHomeWorks" />
@@ -101,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson9.Main" />
+    <configuration name="DuplicateRemover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14.DuplicateRemover" />
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson9.*" />
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +123,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SinCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson4.SinCalculator" />
+    <configuration name="HeapSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14.HeapSorter" />
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson4.*" />
+          <option name="PATTERN" value="lesson14.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson14.ShoppingList" />
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,26 +162,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Train04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10.Train04" />
-      <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Train04 (1)" />
-        <item itemvalue="Application.Train04" />
-        <item itemvalue="Application.SinCalculator" />
-        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.HeapSorter" />
+        <item itemvalue="Application.DuplicateRemover" />
+        <item itemvalue="Application.ShoppingList" />
         <item itemvalue="Application.Croupier" />
+        <item itemvalue="Application.Train04 (1)" />
       </list>
     </recent_temporary>
   </component>
