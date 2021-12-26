@@ -4,48 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="git update">
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="maven_supp">
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson17/TestLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hillelHomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hillelHomeWorks.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson10/Croupier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/Croupier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson10/CroupierException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/CroupierException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson10/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/Deck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson10/DeckCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson10/DeckCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson14/DuplicateRemover.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson14/DuplicateRemover.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson14/HeapSorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson14/HeapSorter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson14/RandomCreator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson14/RandomCreator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson14/ShoppingList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson14/ShoppingList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson2/HomeWorkLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkLesson2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/CheckOddEven.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/CheckOddEven.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/Magnitude.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Magnitude.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/PrintMonthInWordIf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/PrintMonthInWordIf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/PrintMonthInWordSwitch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/PrintMonthInWordSwitch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson3/TriangleTypeChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/TriangleTypeChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/AvgArrayValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/AvgArrayValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/Croupier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/Croupier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/EvenNumberToZeroConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/EvenNumberToZeroConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson4/SinCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson4/SinCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson7/CroupierNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson7/CroupierNew.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8/EngineeringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8/EngineeringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8/FinancialCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8/FinancialCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8/InputScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8/InputScanner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson8/SimpleCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson8/SimpleCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson9/LogLevel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/LogLevel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson9/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson9/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="TestNG Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -79,10 +57,18 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson14HomeWork9" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="GithubProjectSettings">
     <option name="branchProtectionPatterns">
@@ -111,6 +97,8 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -125,83 +113,189 @@
       <recent name="E:\PersonalDev\javaProject\hillelHomeWorks\src" />
       <recent name="E:\PersonalDev\javaProject\hillelHomeWorks\src\lesson10" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="lesson14" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="lesson17" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.DuplicateRemover">
-    <configuration name="Croupier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson10.Croupier" />
+  <component name="RunManager" selected="TestNG.E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml">
+    <configuration name="E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson10.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuplicateRemover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.DuplicateRemover" />
+    <configuration name="Test (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.*" />
+          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HeapSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.HeapSorter" />
+    <configuration name="Test" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.*" />
+          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson14.ShoppingList" />
+    <configuration name="TestLogin (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson14.*" />
+          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Train04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fd.Train04" />
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fd.*" />
+          <option name="PATTERN" value="lesson17.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.checkEmptyFields" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="METHOD_NAME" value="checkEmptyFields" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestLogin.checkPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson17.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson17" />
+      <option name="MAIN_CLASS_NAME" value="lesson17.TestLogin" />
+      <option name="METHOD_NAME" value="checkPassword" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.DuplicateRemover" />
-        <item itemvalue="Application.HeapSorter" />
-        <item itemvalue="Application.ShoppingList" />
-        <item itemvalue="Application.Croupier" />
-        <item itemvalue="Application.Train04 (1)" />
+        <item itemvalue="TestNG.E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.TestLogin" />
+        <item itemvalue="TestNG.TestLogin (1)" />
+        <item itemvalue="TestNG.TestLogin.checkEmptyFields" />
+        <item itemvalue="TestNG.TestLogin.checkPassword" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638992176920</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="maven_supp">
+      <created>1640020317516</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1640020317516</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,7 +419,8 @@
     <MESSAGE value="git update" />
     <MESSAGE value="Revert &quot;lesson10HomeWork8 - Refactor&quot;&#10;&#10;This reverts commit 8504f1d2" />
     <MESSAGE value="Revert &quot;lesson10HomeWork8&quot;&#10;&#10;This reverts commit 9299a7f7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;lesson10HomeWork8&quot;&#10;&#10;This reverts commit 9299a7f7" />
+    <MESSAGE value="maven_supp" />
+    <option name="LAST_COMMIT_MESSAGE" value="maven_supp" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
