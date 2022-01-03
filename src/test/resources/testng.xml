@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite 1">
-    <test name="Auth">
-        <parameter name = "value" value="Значение параметра"/>
+<suite name="Lesson20">
+    <test name="lesson20">
         <classes>
-            <class name="lesson17.TestLogin"/>
+            <class name="lesson20.AuthenticationTests"/>
+            <class name="lesson20.GeolocationTest"/>
+            <class name="lesson20.SelectValueTest"/>
+        </classes>
+    </test>
+    <test name="lesson21">
+        <classes>
+            <class name="lesson21.DragAndDropTests"/>
+            <class name="lesson21.HoverMenuTests"/>
+            <class name="lesson21.HoversUsernamesTests"/>
         </classes>
     </test>
 
