@@ -5,6 +5,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 @Test
@@ -13,6 +15,8 @@ public class GeolocationTest extends TestActions {
 
     @Test(groups = {"lesson20"})
     public void getGeolocation() {
+
+
         log.info("Start test - " + Thread.currentThread().getStackTrace()[1].getMethodName());
         WebDriver driver = getBrowser("chrome");
 
@@ -20,13 +24,13 @@ public class GeolocationTest extends TestActions {
         clickElement(driver, By.xpath("//button[contains(text(),'Where am I?')]"));
 
         try {
-            Thread.sleep(1000);
+            var webDriverWait = new WebDriverWait(driver, 5);
+            webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='lat-value']")));
+            webDriverWait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[@id='long-value']")));
             driver.switchTo().alert().accept();
             System.out.println("Alert is Displayed");
         } catch (NoAlertPresentException ex) {
             System.out.println("Alert is NOT Displayed");
-        } catch (InterruptedException e) {
-            e.printStackTrace();
         }
 
         System.out.println("Latitude: " + selectTextFromElement(driver, By.xpath("//div[@id='lat-value']")) +
