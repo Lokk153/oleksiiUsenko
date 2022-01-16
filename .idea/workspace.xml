@@ -4,17 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson20HomeWork12">
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestActions/ActionsLogMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestActions/BrowserActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestActions/ClickActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestActions/CursorActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestActions/TextActions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson21/DragAndDropTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson21/HoverMenuTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson21/HoversUsernamesTests.java" afterDir="false" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson21HomeWork13">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/GeolocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson20/GeolocationTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +121,7 @@
       <recent name="lesson17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoversUsernamesTests.selectUsernames">
+  <component name="RunManager" selected="TestNG.GeolocationTest">
     <configuration name="DragAndDropTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
@@ -147,10 +139,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GeolocationTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson20" />
+      <option name="MAIN_CLASS_NAME" value="lesson20.GeolocationTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeolocationTest.getGeolocation" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson20.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson20" />
+      <option name="MAIN_CLASS_NAME" value="lesson20.GeolocationTest" />
+      <option name="METHOD_NAME" value="getGeolocation" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -167,23 +184,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="lesson21" />
       <option name="MAIN_CLASS_NAME" value="lesson21.HoverMenuTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HoversUsernamesTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson21" />
-      <option name="MAIN_CLASS_NAME" value="lesson21.HoversUsernamesTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -211,11 +211,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.GeolocationTest" />
+        <item itemvalue="TestNG.GeolocationTest.getGeolocation" />
         <item itemvalue="TestNG.HoversUsernamesTests.selectUsernames" />
         <item itemvalue="TestNG.HoverMenuTests" />
         <item itemvalue="TestNG.DragAndDropTests" />
-        <item itemvalue="TestNG.HoversUsernamesTests" />
-        <item itemvalue="TestNG.E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640932690785</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="lesson21HomeWork13">
+      <created>1641239543772</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1641239543772</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -348,7 +355,8 @@
     <MESSAGE value="Revert &quot;lesson10HomeWork8&quot;&#10;&#10;This reverts commit 9299a7f7" />
     <MESSAGE value="maven_supp" />
     <MESSAGE value="lesson20HomeWork12" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson20HomeWork12" />
+    <MESSAGE value="lesson21HomeWork13" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson21HomeWork13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
