@@ -4,9 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson21HomeWork13">
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson22HomeWork14 - Thread.sleep removed">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/ChallengingDomPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/GeolocationPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HoversPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pageObjects/SecurePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson23/BaseTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson23/ChallengingDomTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson23/GeolocationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson23/HoversTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson23/LoginTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/GeolocationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/lesson20/GeolocationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hillelHomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hillelHomeWorks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +68,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson22HomeWork14" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -105,6 +118,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="pageObjects" />
       <recent name="lesson10" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -121,17 +135,17 @@
       <recent name="lesson17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GeolocationTest">
-    <configuration name="DragAndDropTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LoginTests">
+    <configuration name="ChallengingDomTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson21.*" />
+          <option name="PATTERN" value="lesson23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson21" />
-      <option name="MAIN_CLASS_NAME" value="lesson21.DragAndDropTests" />
+      <option name="PACKAGE_NAME" value="lesson23" />
+      <option name="MAIN_CLASS_NAME" value="lesson23.ChallengingDomTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -139,34 +153,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeolocationTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ChallengingDomTests.selectValue" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson20.*" />
+          <option name="PATTERN" value="lesson23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson20" />
-      <option name="MAIN_CLASS_NAME" value="lesson20.GeolocationTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeolocationTest.getGeolocation" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson20.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson20" />
-      <option name="MAIN_CLASS_NAME" value="lesson20.GeolocationTest" />
-      <option name="METHOD_NAME" value="getGeolocation" />
+      <option name="PACKAGE_NAME" value="lesson23" />
+      <option name="MAIN_CLASS_NAME" value="lesson23.ChallengingDomTests" />
+      <option name="METHOD_NAME" value="selectValue" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -174,16 +171,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverMenuTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HoversTests.selectUsernames" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson21.*" />
+          <option name="PATTERN" value="lesson23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson21" />
-      <option name="MAIN_CLASS_NAME" value="lesson21.HoverMenuTests" />
+      <option name="PACKAGE_NAME" value="lesson23" />
+      <option name="MAIN_CLASS_NAME" value="lesson23.HoversTests" />
+      <option name="METHOD_NAME" value="selectUsernames" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson23.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lesson23" />
+      <option name="MAIN_CLASS_NAME" value="lesson23.LoginTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -191,17 +206,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoversUsernamesTests.selectUsernames" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTests.loginEmptyFields" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson21.*" />
+          <option name="PATTERN" value="lesson23.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson21" />
-      <option name="MAIN_CLASS_NAME" value="lesson21.HoversUsernamesTests" />
-      <option name="METHOD_NAME" value="selectUsernames" />
+      <option name="PACKAGE_NAME" value="lesson23" />
+      <option name="MAIN_CLASS_NAME" value="lesson23.LoginTests" />
+      <option name="METHOD_NAME" value="loginEmptyFields" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -211,11 +226,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GeolocationTest" />
-        <item itemvalue="TestNG.GeolocationTest.getGeolocation" />
-        <item itemvalue="TestNG.HoversUsernamesTests.selectUsernames" />
-        <item itemvalue="TestNG.HoverMenuTests" />
-        <item itemvalue="TestNG.DragAndDropTests" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.ChallengingDomTests.selectValue" />
+        <item itemvalue="TestNG.LoginTests.loginEmptyFields" />
+        <item itemvalue="TestNG.ChallengingDomTests" />
+        <item itemvalue="TestNG.HoversTests.selectUsernames" />
       </list>
     </recent_temporary>
   </component>
@@ -312,7 +327,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641239543772</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="lesson22HomeWork14 - Thread.sleep removed">
+      <created>1642350703317</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1642350703317</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -356,7 +378,8 @@
     <MESSAGE value="maven_supp" />
     <MESSAGE value="lesson20HomeWork12" />
     <MESSAGE value="lesson21HomeWork13" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson21HomeWork13" />
+    <MESSAGE value="lesson22HomeWork14 - Thread.sleep removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson22HomeWork14 - Thread.sleep removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
