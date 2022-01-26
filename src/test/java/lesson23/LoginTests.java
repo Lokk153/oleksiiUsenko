@@ -1,5 +1,6 @@
 package lesson23;
 
+import Tests.BaseTest;
 import org.testng.Assert;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

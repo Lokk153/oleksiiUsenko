@@ -7,6 +7,8 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
+
 public abstract class BasePage {
 
     protected WebDriver driver;
@@ -59,5 +61,10 @@ public abstract class BasePage {
     //Cursor Actions
     protected void moveToCursorElement(WebElement target) {
         actions.moveToElement(target).perform();
+    }
+
+    //File Actions
+    protected void uploadFile(WebElement element, String path) {
+        element.sendKeys(new File(path).getAbsolutePath());
     }
 }

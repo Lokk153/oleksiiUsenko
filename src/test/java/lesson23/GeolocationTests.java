@@ -1,5 +1,6 @@
 package lesson23;
 
+import Tests.BaseTest;
 import org.testng.annotations.Test;
 import pageObjects.GeolocationPage;
 

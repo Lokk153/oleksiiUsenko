@@ -18,6 +18,8 @@ public class HomePage extends BasePage {
     By geolocation = By.linkText("Geolocation");
     By challengingDom = By.linkText("Challenging DOM");
     By hovers = By.linkText("Hovers");
+    By fileDownload = By.linkText("File Download");
+    By fileUpload = By.linkText("File Upload");
 
     //Page Methods
     public HomePage goToHomePage() {
@@ -44,4 +46,16 @@ public class HomePage extends BasePage {
         driver.findElement(hovers).click();
         return new HoversPage(driver);
     }
+
+    public FileDownloadPage goToFileDownloadPage () {
+        driver.findElement(fileDownload).click();
+        return new FileDownloadPage(driver);
+    }
+
+    public FileUploadPage goToFileUploadPage() {
+        driver.findElement(fileUpload).click();
+        return new FileUploadPage(driver);
+    }
+
+
 }
