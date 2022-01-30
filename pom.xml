@@ -17,7 +17,7 @@
         <webdrivermanager.version>5.0.3</webdrivermanager.version>
         <log4j.version>1.2.17</log4j.version>
         <slf4j.version>1.8.0-beta4</slf4j.version>
-
+        <selenide.version>5.24.2</selenide.version>
     </properties>
 
     <dependencies>
@@ -52,6 +52,12 @@
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-log4j12</artifactId>
             <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.codeborne</groupId>
+            <artifactId>selenide</artifactId>
+            <version>${selenide.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
