@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson26HomeWork16">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageSelenideObjects/DynamicLoadingSelenidePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageSelenideObjects/FileDownloadSelenidePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageSelenideObjects/FileUploadSelenidePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pageSelenideObjects/HomeSelenidePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseSelenideTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson27/DynamicLoadingSelenideTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/lesson27/FileUploadSelenideTests.java" afterDir="false" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson27HomeWork17">
+      <change afterPath="$PROJECT_DIR$/src/main/java/lesson29/RestClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lesson29/PetStoreTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hillelHomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hillelHomeWorks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
@@ -63,7 +58,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson26HomeWork16" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -129,35 +124,36 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="lesson17" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="pageObjects" />
-    </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileUploadSelenideTests.downloadFileTestSelenide">
-    <configuration name="Train04 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="fd.Train04" />
+  <component name="RunManager" selected="TestNG.PetStoreTests">
+    <configuration name="PetStoreTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="fd.*" />
+          <option name="PATTERN" value="lesson29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="lesson29" />
+      <option name="MAIN_CLASS_NAME" value="lesson29.PetStoreTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicLoadingSelenideTests.dynamicLoadingSelenideTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTests.failedGetOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.DynamicLoadingSelenideTests" />
-      <option name="METHOD_NAME" value="dynamicLoadingSelenideTest" />
+      <option name="PACKAGE_NAME" value="lesson29" />
+      <option name="MAIN_CLASS_NAME" value="lesson29.PetStoreTests" />
+      <option name="METHOD_NAME" value="failedGetOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -165,17 +161,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTests.successGetOrder" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.DynamicLoadingSelenideTests" />
-      <option name="METHOD_NAME" value="dynamicLoadingSelenideTest" />
+      <option name="PACKAGE_NAME" value="lesson29" />
+      <option name="MAIN_CLASS_NAME" value="lesson29.PetStoreTests" />
+      <option name="METHOD_NAME" value="successGetOrder" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -183,17 +179,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadSelenideTests.downloadFileTestSelenide (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTests.successOrderCreation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.FileUploadSelenideTests" />
-      <option name="METHOD_NAME" value="downloadFileTestSelenide" />
+      <option name="PACKAGE_NAME" value="lesson29" />
+      <option name="MAIN_CLASS_NAME" value="lesson29.PetStoreTests" />
+      <option name="METHOD_NAME" value="successOrderCreation" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -201,17 +197,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadSelenideTests.downloadFileTestSelenide" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PetStoreTests.successOrderDeletion" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.FileUploadSelenideTests" />
-      <option name="METHOD_NAME" value="downloadFileTestSelenide" />
+      <option name="PACKAGE_NAME" value="lesson29" />
+      <option name="MAIN_CLASS_NAME" value="lesson29.PetStoreTests" />
+      <option name="METHOD_NAME" value="successOrderDeletion" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -221,11 +217,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.FileUploadSelenideTests.downloadFileTestSelenide" />
-        <item itemvalue="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest (1)" />
-        <item itemvalue="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" />
-        <item itemvalue="TestNG.FileUploadSelenideTests.downloadFileTestSelenide (1)" />
-        <item itemvalue="Application.Train04 (1)" />
+        <item itemvalue="TestNG.PetStoreTests" />
+        <item itemvalue="TestNG.PetStoreTests.successOrderCreation" />
+        <item itemvalue="TestNG.PetStoreTests.failedGetOrder" />
+        <item itemvalue="TestNG.PetStoreTests.successGetOrder" />
+        <item itemvalue="TestNG.PetStoreTests.successOrderDeletion" />
       </list>
     </recent_temporary>
   </component>
@@ -336,14 +332,7 @@
       <option name="project" value="LOCAL" />
       <updated>1642443519084</updated>
     </task>
-    <task id="LOCAL-00015" summary="lesson26HomeWork16">
-      <created>1643220900978</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1643220900978</updated>
-    </task>
-    <option name="localTasksCounter" value="16" />
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -389,8 +378,7 @@
     <MESSAGE value="lesson21HomeWork13" />
     <MESSAGE value="lesson22HomeWork14 - Thread.sleep removed" />
     <MESSAGE value="lesson23HomeWork15" />
-    <MESSAGE value="lesson26HomeWork16" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson26HomeWork16" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson23HomeWork15" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
