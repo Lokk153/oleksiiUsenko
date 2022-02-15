@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Tests">
-    <test name="lesson20">
-        <classes>
-            <class name="lesson23.ChallengingDomTests"/>
-            <class name="lesson23.GeolocationTests"/>
-            <class name="lesson23.HoversTests"/>
-            <class name="lesson23.LoginTests"/>
-        </classes>
-    </test>
     <test name="lesson21">
         <classes>
             <class name="lesson26.FileDownloadTests"/>
