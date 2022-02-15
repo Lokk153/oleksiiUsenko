@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="lesson29HomeWork18">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="jenkinsTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="lesson29Homework18" />
+        <entry key="$PROJECT_DIR$" value="jenkinsTest" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,7 +122,7 @@
       <recent name="lesson17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest">
+  <component name="RunManager" selected="TestNG.FileDownloadTests.downloadTest">
     <configuration name="DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
@@ -140,7 +141,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.downloadChangedFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
@@ -149,16 +150,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson26" />
-      <option name="MAIN_CLASS_NAME" value="lesson26.FileUploadTests" />
-      <option name="METHOD_NAME" value="downloadChangedFile" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.FileDownloadTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.downloadFile" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadTests.downloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
@@ -167,8 +167,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="lesson26" />
-      <option name="MAIN_CLASS_NAME" value="lesson26.FileUploadTests" />
-      <option name="METHOD_NAME" value="downloadFile" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.FileDownloadTests" />
+      <option name="METHOD_NAME" value="downloadTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -214,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FileDownloadTests.downloadTest" />
+        <item itemvalue="TestNG.FileDownloadTests" />
         <item itemvalue="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" />
         <item itemvalue="TestNG.FileUploadTests.uploadFileTest (2)" />
         <item itemvalue="TestNG.FileUploadTests.uploadFileTest (1)" />
-        <item itemvalue="TestNG.FileUploadTests.downloadFile" />
-        <item itemvalue="TestNG.FileUploadTests.downloadChangedFile" />
       </list>
     </recent_temporary>
   </component>
@@ -329,7 +329,49 @@
       <option name="project" value="LOCAL" />
       <updated>1642443519084</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Update">
+      <created>1644914057769</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1644914057769</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jenkinsTest">
+      <created>1644914413313</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1644914413313</updated>
+    </task>
+    <task id="LOCAL-00017" summary="jenkinsTest">
+      <created>1644914522172</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1644914522172</updated>
+    </task>
+    <task id="LOCAL-00018" summary="jenkinsTest">
+      <created>1644914888575</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1644914888575</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jenkinsTest">
+      <created>1644917489215</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1644917489215</updated>
+    </task>
+    <task id="LOCAL-00020" summary="jenkinsTest">
+      <created>1644917848555</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1644917848555</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -375,7 +417,10 @@
     <MESSAGE value="lesson21HomeWork13" />
     <MESSAGE value="lesson22HomeWork14 - Thread.sleep removed" />
     <MESSAGE value="lesson23HomeWork15" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson23HomeWork15" />
+    <MESSAGE value="lesson29HomeWork18" />
+    <MESSAGE value="Update" />
+    <MESSAGE value="jenkinsTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="jenkinsTest" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
