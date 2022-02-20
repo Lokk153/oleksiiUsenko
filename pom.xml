@@ -12,7 +12,7 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <testng.version>7.4.0</testng.version>
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.1.2</selenium.version>
         <maven-surefire-plugin.version>3.0.0-M5</maven-surefire-plugin.version>
         <webdrivermanager.version>5.0.3</webdrivermanager.version>
         <log4j.version>1.2.17</log4j.version>
@@ -22,7 +22,7 @@
         <okio.version>2.8.0</okio.version>
         <json.version>20211205</json.version>
         <allure-testng.version>2.17.2</allure-testng.version>
-        <aspectj.version>1.8.10</aspectj.version>
+        <aspectj.version>1.9.8</aspectj.version>
     </properties>
 
     <dependencies>
@@ -99,7 +99,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <version>RELEASE</version>
+            <version>1.18.22</version>
             <scope>test</scope>
         </dependency>
 
@@ -110,16 +110,21 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>${maven-surefire-plugin.version}</version>
+                <version>3.0.0-M5</version>
                 <configuration>
+
+                    <!--suppress UnresolvedMavenProperty -->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>
-                    <suiteXmlFiles>
-                        <suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile>
-                    </suiteXmlFiles>
+
+                    <!--                    <suiteXmlFiles>-->
+                    <!--                        <suiteXmlFile>testng.xml</suiteXmlFile>-->
+                    <!--                    </suiteXmlFiles>-->
+
                     <systemPropertyVariables>
                         <allure.results.directory>${project.build.directory}/allure-results</allure.results.directory>
+                        <!-- <siteUrl>http://some.site</siteUrl>-->
                     </systemPropertyVariables>
                 </configuration>
                 <dependencies>
@@ -128,16 +133,8 @@
                         <artifactId>aspectjweaver</artifactId>
                         <version>${aspectj.version}</version>
                     </dependency>
+
                 </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
-                <configuration>
-                    <archive>
-                        <manifestFile>src/main/resources/META-INF/MANIFEST.MF</manifestFile>
-                    </archive>
-                </configuration>
             </plugin>
         </plugins>
     </build>
