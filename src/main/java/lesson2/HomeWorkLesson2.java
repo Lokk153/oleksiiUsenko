@@ -2,6 +2,7 @@ package lesson2;
 
 public class HomeWorkLesson2 {
     public static void main(String[] args){
+        double d = 5/2; System.out.println(d);
 
         //1 Temperature Converter
         double celsius = 20.5;

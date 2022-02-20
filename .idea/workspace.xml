@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="jenkinsTest">
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="Update BaseTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hillelHomeWorks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hillelHomeWorks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkLesson2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkLesson2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FileDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/FileUploadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FileUploadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +62,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="jenkinsTest" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -122,19 +129,31 @@
       <recent name="lesson17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.FileDownloadTests.downloadTest">
+  <component name="RunManager" selected="TestNG.FileUploadTests.uploadFileTest">
+    <configuration name="HomeWorkLesson2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson2.HomeWorkLesson2" />
+      <module name="hillelHomeWorks" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.DynamicLoadingSelenideTests" />
-      <option name="METHOD_NAME" value="dynamicLoadingSelenideTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.FileDownloadTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -176,25 +195,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileUploadTests.uploadFileTest (1)" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson26.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson26" />
-      <option name="MAIN_CLASS_NAME" value="lesson26.FileUploadTests" />
-      <option name="METHOD_NAME" value="uploadFileTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FileUploadTests.uploadFileTest (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileUploadTests.uploadFileTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FileUploadTests.uploadFileTest" />
         <item itemvalue="TestNG.FileDownloadTests.downloadTest" />
+        <item itemvalue="Application.HomeWorkLesson2" />
         <item itemvalue="TestNG.FileDownloadTests" />
         <item itemvalue="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" />
-        <item itemvalue="TestNG.FileUploadTests.uploadFileTest (2)" />
-        <item itemvalue="TestNG.FileUploadTests.uploadFileTest (1)" />
       </list>
     </recent_temporary>
   </component>
