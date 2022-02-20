@@ -1,5 +1,6 @@
 package pageObjects;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -47,11 +48,13 @@ public class HomePage extends BasePage {
         return new HoversPage(driver);
     }
 
+    @Step("goToFileDownloadPage")
     public FileDownloadPage goToFileDownloadPage () {
         driver.findElement(fileDownload).click();
         return new FileDownloadPage(driver);
     }
 
+    @Step("goToFileUploadPage")
     public FileUploadPage goToFileUploadPage() {
         driver.findElement(fileUpload).click();
         return new FileUploadPage(driver);

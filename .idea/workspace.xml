@@ -4,8 +4,56 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="jenkinsTest">
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/BaseTest.java" afterDir="false" />
+    <list default="true" id="9e0e1b4e-ab12-42c8-85fc-0c583cf0e49c" name="Changes" comment="Update BaseTest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson10/Croupier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson10/CroupierException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson10/Deck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson10/DeckCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson14/DuplicateRemover.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson14/HeapSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson14/RandomCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson14/ShoppingList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson2/HomeWorkLesson2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson29/RestClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/CheckOddEven.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Magnitude.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/PrintMonthInWordIf.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/PrintMonthInWordSwitch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/TriangleTypeChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/AvgArrayValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/Croupier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/EvenNumberToZeroConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson4/SinCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson7/CroupierNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/EngineeringCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/FinancialCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/InputScanner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson8/SimpleCalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/LogLevel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson9/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pageObjects/FileDownloadPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pageObjects/FileDownloadPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestActions/ActionsLogMessage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestActions/BrowserActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestActions/ClickActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestActions/CursorActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TestActions/TextActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson17/TestLogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/AuthenticationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/GeolocationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/SelectValueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson20/TestActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson21/DragAndDropTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson21/HoverMenuTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson21/HoversUsernamesTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson23/ChallengingDomTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson23/GeolocationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson23/HoversTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson23/LoginTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/lesson29/PetStoreTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +102,7 @@
     </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lesson34Homework20" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,36 +169,28 @@
       <recent name="lesson17" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DragAndDropTests.dragAndDropTest">
-    <configuration name="DragAndDropTests.dragAndDropTest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml">
+    <configuration name="E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson21.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="lesson21" />
-      <option name="MAIN_CLASS_NAME" value="lesson21.DragAndDropTests" />
-      <option name="METHOD_NAME" value="dragAndDropTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="FileDownloadTests.downloadTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hillelHomeWorks" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lesson27.*" />
+          <option name="PATTERN" value="lesson26.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="lesson27" />
-      <option name="MAIN_CLASS_NAME" value="lesson27.DynamicLoadingSelenideTests" />
-      <option name="METHOD_NAME" value="dynamicLoadingSelenideTest" />
+      <option name="PACKAGE_NAME" value="lesson26" />
+      <option name="MAIN_CLASS_NAME" value="lesson26.FileDownloadTests" />
+      <option name="METHOD_NAME" value="downloadTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -214,8 +254,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.DragAndDropTests.dragAndDropTest" />
-        <item itemvalue="TestNG.DynamicLoadingSelenideTests.dynamicLoadingSelenideTest" />
+        <item itemvalue="TestNG.E:/Personal dev/javaProject/oleksiiUsenko/src/test/resources/testng.xml" />
+        <item itemvalue="TestNG.FileDownloadTests.downloadTest" />
         <item itemvalue="TestNG.FileUploadTests.uploadFileTest (2)" />
         <item itemvalue="TestNG.FileUploadTests.uploadFileTest (1)" />
         <item itemvalue="TestNG.FileUploadTests.downloadFile" />
