@@ -29,7 +29,7 @@ public class LoginTests extends BaseTest {
         SecurePage securePage = new SecurePage(driver);
         String alertText = securePage
                 .getAlertMessage();
-        Assert.assertTrue(alertText.contains("You logged into a secure area!"));
+        Assert.assertFalse(alertText.contains("You logged into a secure area!"));
     }
 
     @Test(dataProvider = "users")
