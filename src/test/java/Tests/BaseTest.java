@@ -1,21 +1,14 @@
 package Tests;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-import io.qameta.allure.Attachment;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-import org.testng.ITestResult;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import pageObjects.HomePage;
 
 import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,25 +27,14 @@ public class BaseTest {
         options.addArguments("--disable-extensions"); // disabling extensions
         options.addArguments("--disable-gpu"); // applicable to windows os only
         options.addArguments("--disable-dev-shm-usage"); // overcome limited resource problems
-        //options.addArguments("--headless"); // without open Browser
+        options.addArguments("--headless"); // without open Browser
         options.addArguments("--no-sandbox"); // Bypass OS security model
         this.driver = new ChromeDriver(options);
     }
 
 
 
-    @AfterMethod
-    public void takeScreenShot(ITestResult result) throws IOException {
-        if (!result.isSuccess()) {
-            File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-            saveScreenshot(Files.readAllBytes(screenshot.toPath()));
-        }
-    }
 
-    @Attachment(value = "Page screenshot", type = "image/pgn")
-    public byte[] saveScreenshot(byte[] screenShot) {
-        return screenShot;
-    }
 
     @AfterClass
     public void closeBrowser() {
