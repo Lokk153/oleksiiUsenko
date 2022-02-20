@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Tests">
-    <test name="lesson21">
+    <test name="lesson17">
         <classes>
-            <class name="lesson26.FileDownloadTests"/>
-            <class name="lesson26.FileUploadTests"/>
+            <class name="lesson17.TestLogin"/>
         </classes>
     </test>
 
