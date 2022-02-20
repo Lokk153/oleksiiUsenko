@@ -28,6 +28,7 @@ public class HomePage extends BasePage {
         return this;
     }
 
+    @Step("goToLoginPage")
     public LoginPage goToLoginPage() {
         driver.findElement(formAuthentication).click();
         return new LoginPage(driver);
@@ -48,13 +49,11 @@ public class HomePage extends BasePage {
         return new HoversPage(driver);
     }
 
-    @Step("goToFileDownloadPage")
     public FileDownloadPage goToFileDownloadPage () {
         driver.findElement(fileDownload).click();
         return new FileDownloadPage(driver);
     }
 
-    @Step("goToFileUploadPage")
     public FileUploadPage goToFileUploadPage() {
         driver.findElement(fileUpload).click();
         return new FileUploadPage(driver);

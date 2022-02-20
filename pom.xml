@@ -79,6 +79,7 @@
             <artifactId>json</artifactId>
             <version>${json.version}</version>
         </dependency>
+
         <!-- Reporting -->
         <dependency>
             <groupId>org.aspectj</groupId>
@@ -95,6 +96,13 @@
             <artifactId>allure-java-commons</artifactId>
             <version>${allure-testng.version}</version>
         </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>RELEASE</version>
+            <scope>test</scope>
+        </dependency>
+
     </dependencies>
 
     <build>

@@ -1,5 +1,6 @@
 package pageObjects;
 
+import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -30,30 +31,36 @@ public class LoginPage extends BasePage {
     private WebElement alertMessage;
 
     //Page Methods
+    @Step("setUsername")
     public LoginPage setUsername(String username){
         enterTextIntoElement(usernameInput, username);
         return this;
     }
 
+    @Step("setPassword")
     public LoginPage setPassword(String password){
         enterTextIntoElement(passwordInput, password);
         return this;
     }
 
+    @Step("clickLoginButton")
     public LoginPage clickLoginButton(){
         click(loginButton);
         return this;
     }
 
+
     public String getAlertMessage() {
         return selectTextFromElement(alertMessage);
     }
 
+    @Step("clearFieldUsername")
     public LoginPage clearFieldUsername(){
         clearField(usernameInput);
         return this;
     }
 
+    @Step("clearFieldPassword")
     public LoginPage clearFieldPassword(){
         clearField(passwordInput);
         return this;

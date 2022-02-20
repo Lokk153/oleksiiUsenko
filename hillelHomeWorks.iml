@@ -82,5 +82,6 @@
     <orderEntry type="library" scope="RUNTIME" name="Maven: io.qameta.allure:allure-test-filter:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-java-commons:2.17.2" level="project" />
     <orderEntry type="library" name="Maven: io.qameta.allure:allure-model:2.17.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Maven: org.projectlombok:lombok:1.18.22" level="project" />
   </component>
 </module>
